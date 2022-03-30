@@ -286,6 +286,7 @@ public class Main {
     }
 
     static int Caterpillar(int leaves, int arr[], int n) {
+        /* Hackerrank problem */
         int leaveseaten = 0;
         for (int i = 1; i <= 10; i++) {
             for (int j = 0; j < arr.length; j++) {
